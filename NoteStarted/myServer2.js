@@ -1,7 +1,7 @@
 var http =require('http')
 var fs = require('fs')
 
-var server = http.createServer(function(req,res){
+var myserver = http.createServer(function(req,res){
     fs.readFile('mydata.txt','utf8',function(err,data){
         if(!err){
             res.write(data)
@@ -12,9 +12,6 @@ var server = http.createServer(function(req,res){
         }
     })
 })
-res.write("1")
-res.write("2")
-res.write("3")
 
-server.listen(4000)
+myserver.listen(4000)
 console.log('server is running')

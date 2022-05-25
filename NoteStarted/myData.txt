@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <h1>HTML elements</h1>
+        <select>
+            <Option>VN</Option>
+            <Option>THAILAND</Option>
+        </select>
+        
+        <input type="button" value="OK"/>
+    </body>
+</html>
