@@ -5,7 +5,6 @@
             <Option>VN</Option>
             <Option>THAILAND</Option>
         </select>
-        
         <input type="button" value="OK"/>
     </body>
 </html>
